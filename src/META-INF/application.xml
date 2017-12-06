@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+    <display-name>ProjekatOSA</display-name>
+    
+    <module>
+        <web>
+            <web-uri>ProjekatOSA.war</web-uri>
+            <context-root>/ProjekatOSA</context-root>
+        </web>
+    </module>
+
+    <module>
+        <ejb>ProjekatOSA.jar</ejb>
+    </module>
+</application>

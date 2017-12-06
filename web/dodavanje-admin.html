@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kolone za dodavanje i izmenu</title>
+        <script src="jquery-2.1.0.min.js"></script>
+        <script src="dodavanje.js"></script>
+    </head>
+<body>
+	<input value="Odjavi se" id="idOdjava" type="submit" />
+	<br/>
+	Dodaj/izmeni korisnika
+    <table>
+        <tr>
+            <td>Unesi korisnicko ime</td>
+            <td><input type="text" id="usernameInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi lozinku</td>
+            <td><input type="text" id="passwordInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi ime</td>
+            <td><input type="text" id="firstnameInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi prezime</td>
+            <td><input type="text" id="lastnameInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi zanr</td>
+            <td><select id="categoryUserSelectAdmin"><!-- <option value="0">Korisnik nije moderator</option> --></select></td>
+        </tr>
+    </table>
+    <br/>
+    <input type="submit" id="dodajIzmeniKorisnikaSubmit" value="Dodaj/izmeni" />
+    <br/>
+    
+    Dodaj/izmeni film
+    <table>
+        <tr>
+            <td>Unesi naziv</td>
+            <td><input type="text" id="titleInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi opis</td>
+            <td><input type="text" id="descriptionInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi zanr</td>
+            <td><select id="categorySelect"></select></td>
+        </tr>
+        <tr>
+            <td>Unesi producenta</td>
+            <td><input type="text" id="producerInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi rezisera</td>
+            <td><input type="text" id="directorInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi glumce</td>
+            <td><input type="text" id="actorsInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi godinu</td>
+            <td><input type="number" id="yearInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi jezik</td>
+            <td><select id="languageSelect"></select></td>
+        </tr>
+        <tr>
+            <td>Unesi drzavu</td>
+            <td><select id="countrySelect"></select></td>
+        </tr>
+    </table>
+    <br/>
+    <input type="submit" id="dodajIzmeniFilmSubmit" value="Dodaj/izmeni" />
+    
+    <br/>
+    <br/>
+    Dodaj/izmeni kategoriju / zanr
+    <table>
+        <tr>
+            <td>Unesi naziv</td>
+            <td><input type="text" id="nameCategoryInput" /></td>
+        </tr>
+    </table>
+    <br/>
+    <input type="submit" id="dodajIzmeniKategorijuSubmit" value="Dodaj/izmeni" />
+    <br/>
+    
+    </body>
+
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Izmena korisnika</title>
+    <script src="jquery-2.1.0.min.js"></script>
+    <script src="izmena-korisnika.js"></script>
+</head>
+
+<body>
+	<input value="Odjavi se" id="idOdjava" type="submit" />
+	<br/>
+	Izaberi korisnika kojeg zelis da izmenis:
+	<select id="selectIzaberiKorisnika"></select>
+	<br/>
+    <input type="submit" id="izaberiKorisnikaSubmit" value="Izaberi" />
+	<br/>
+
+	izmeni korisnika
+    <table>
+    	<tr>
+            <td>ID</td>
+            <td><input type="text" id="idUser" readonly="readonly" /></td>
+        </tr>
+        <tr>
+            <td>Unesi korisnicko ime</td>
+            <td><input type="text" id="usernameInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi lozinku</td>
+            <td><input type="text" id="passwordInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi ime</td>
+            <td><input type="text" id="firstnameInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi prezime</td>
+            <td><input type="text" id="lastnameInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi zanr</td>
+            <td><select id="categoryUserSelect"><option value="0">Korisnik nije moderator</option></select></td>
+        </tr>
+    </table>
+    <br/>
+    <input type="submit" id="izmeniKorisnikaSubmit" value="Izmeni" />
+    <br/>
+
+</body>
+
+</html>

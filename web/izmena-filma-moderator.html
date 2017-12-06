@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MODERATOR | Izmena filma</title>
+        <script src="jquery-2.1.0.min.js"></script>
+        <script src="izmena-moderator.js"></script>
+    </head>
+<body>    
+	<input value="Odjavi se" id="idOdjava" type="submit" />
+	<br/>
+    Odaberi film koji zelis da izmenis
+    <select id="selectIzaberiFilmModerator"></select>
+    <table>
+    	<tr>
+            <td>ID</td>
+            <td><input type="text" id="idInput" readonly="readonly" /></td>
+        </tr>
+        <tr>
+            <td>Unesi naziv</td>
+            <td><input type="text" id="titleInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi opis</td>
+            <td><input type="text" id="descriptionInput" /></td>
+        </tr>
+        <tr>
+            <td>Zanr</td>
+            <td><input id="categoryInput" type="text" readonly="readonly"/></td>
+        </tr>
+        <tr>
+            <td>Unesi producenta</td>
+            <td><input type="text" id="producerInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi rezisera</td>
+            <td><input type="text" id="directorInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi glumce</td>
+            <td><input type="text" id="actorsInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi godinu</td>
+            <td><input type="number" id="yearInput" /></td>
+        </tr>
+        <tr>
+            <td>Unesi jezik</td>
+            <td><select id="languageSelect"></select></td>
+        </tr>
+        <tr>
+            <td>Unesi drzavu</td>
+            <td><select id="countrySelect"></select></td>
+        </tr>
+    </table>
+    <br/>
+    <input type="submit" id="dodajFilmModeratorSubmit" value="Izmeni film" />
+    
+    <br/>
+    <br/>
+    
+    </body>
+
+
+</html>

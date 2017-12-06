@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Izmena kategorije</title>
+    <script src="jquery-2.1.0.min.js"></script>
+    <script src="izmena-kategorije.js"></script>
+</head>
+
+<body>
+	<input value="Odjavi se" id="idOdjava" type="submit" />
+	<br/>
+	Izaberi kategoriju koju zelis da izmenis:
+	<select id="selectIzaberiKategoriju"></select>
+	<br/>
+    <input type="submit" id="izaberiKategorijuSubmit" value="Izaberi" />
+	<br/>
+
+	izmeni kategoriju / zanr
+    <table>
+    	<tr>
+            <td>ID</td>
+            <td><input type="text" id="idCategory" readonly="readonly" /></td>
+        </tr>
+        <tr>
+            <td>Unesi naziv</td>
+            <td><input type="text" id="nameCategoryInput" /></td>
+        </tr>
+    </table>
+    <br/>
+    <input type="submit" id="izmeniKategorijuSubmit" value="Izmeni" />
+    <br/>
+
+</body>
+
+</html>

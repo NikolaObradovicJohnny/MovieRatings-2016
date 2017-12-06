@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>ADMIN</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<script src="jquery-2.1.0.min.js"></script>
+		<script src="administrator.js"></script>
+	</head>
+	
+	<body>
+	
+	ADMIN STRANA
+	<br/>
+	<a href="dodavanje-admin.html">Dodavanje filmova,kategorija i korisnika</a><br/>
+	<a href="izmena-filmova.html">Izmeni filmove</a><br/>
+	<a href="izmena-kategorije.html">Izmeni kategorije</a><br/>
+	<a href="izmena-korisnika.html">Izmeni korisnike</a><br/>
+	
+	<h1>Prikaz liste filmova</h1>
+		<table id="movieTable">
+			<tr>
+				<th>id</th>
+				<th>naziv</th>
+				<th>opis</th>
+				<th>glumci</th>
+				<th>kategorija</th>
+				<th>godina</th>
+				<th>reziser</th>
+				<th>drzava</th>
+				<th>jezik</th>
+				<th>srednja ocena</th>
+				<th>&nbsp;</th>
+				<th>&nbsp;</th>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<br>
+		<br>
+		Tabelarni prikaz zanrova:
+			<table border="1" id="categoryTable">
+				<tr bgcolor="lightgrey">
+					<th>Id</th>
+					<th>Naziv
+						<form>
+							<input type="text" id="nameFilterInput"/>
+						</form>
+					</th>
+					<th>&nbsp;</th>
+					<th>&nbsp;</th>
+				</tr>
+			</table>
+		<br>
+		<br>
+		Tabelarni prikaz korisnika:
+			<table border="1" id="userTable">
+				<tr bgcolor="lightgrey">
+					<th>Id</th>
+					<th>Ime</th>
+					<th>Prezime</th>
+					<th>Korisnicko ime</th>
+					<th>Kategorija ukoliko je moderator</th>
+					<th>&nbsp;</th>
+					<th>&nbsp;</th>
+				</tr>
+			</table>
+	
+	
+	<!-- <button id="idOdjava">Odjavi se</button>-->
+	<input value="Odjavi se" id="idOdjava" type="submit" />
+	<br/>
+	<a href="change-personal-data.html">Promeni licne podatke</a>
+	<br/>
+	<a href="password-change.html">Promeni lozinku</a>
+	
+	</body>
+
+</html>

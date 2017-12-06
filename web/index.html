@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Movie recommendation | Projekat Osnove softverskih arhitektura</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<script src="jquery-2.1.0.min.js"></script>
+		<script src="movies.js"></script>
+	</head>
+	<body>
+		<h1>Prikaz liste filmova</h1>
+		<table id="movieTable">
+			<tr>
+				<th>id</th>
+				<th>naziv</th>
+				<th>opis</th>
+				<th>glumci</th>
+				<th>kategorija</th>
+				<th>godina</th>
+				<th>reziser</th>
+				<th>drzava</th>
+				<th>jezik</th>
+				<th>srednja ocena</th>
+				<th>oceni</th>
+				<th>&nbsp;</th>
+				<th>&nbsp;</th>
+			</tr>
+		</table>
+		<br>
+		<input id="btnOceniSubmit" value="oceni filmove" type="submit" />
+		<br>
+		<br>
+		<h1>Prikaz liste filmova samo kategorije po zelji</h1>
+		Izaberi kategoriju:<select id="sveKategorijeComboFilter"></select>
+		<input type="submit" value="Filtriraj listu filmova" id="btnMovieFilter"/>
+		<table id="movieTable2">
+			<tr>
+				<th>id</th>
+				<th>naziv</th>
+				<th>opis</th>
+				<th>glumci</th>
+				<th>kategorija</th>
+				<th>godina</th>
+				<th>reziser</th>
+				<th>drzava</th>
+				<th>jezik</th>
+				<th>srednja ocena</th>
+				<th>oceni</th>
+				<th>&nbsp;</th>
+				<th>&nbsp;</th>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<button id="btnMovies7Days">Prikaz filmova po prosecnoj oceni tokom prethodnih 7 dana</button>
+		<div id="movies7days">
+		<h1>Prikaz liste filmova sa prosecnom ocenu unetih ocena tokom prethodnih 7 dana (nedelja)</h1>
+		<table id="movieTable7days">
+			<tr>
+				<th>id</th>
+				<th>naziv</th>
+				<th>opis</th>
+				<th>glumci</th>
+				<th>kategorija</th>
+				<th>godina</th>
+				<th>reziser</th>
+				<th>drzava</th>
+				<th>jezik</th>
+				<th>srednja ocena</th>
+				<th>oceni</th>
+				<th>&nbsp;</th>
+				<th>&nbsp;</th>
+			</tr>
+		</table>
+		</div>
+		<br>
+		<br>
+		<br>
+		<button id="btnMovies30Days">Prikaz filmova po prosecnoj oceni tokom prethodnih 30 dana</button>
+		<div id="movies30days">
+		<h1>Prikaz liste filmova sa prosecnom ocenu unetih ocena tokom prethodnih 30 dana (mesec)</h1>
+		<table id="movieTable30days">
+			<tr>
+				<th>id</th>
+				<th>naziv</th>
+				<th>opis</th>
+				<th>glumci</th>
+				<th>kategorija</th>
+				<th>godina</th>
+				<th>reziser</th>
+				<th>drzava</th>
+				<th>jezik</th>
+				<th>srednja ocena</th>
+				<th>oceni</th>
+				<th>&nbsp;</th>
+				<th>&nbsp;</th>
+			</tr>
+		</table>
+		</div>
+		<br>
+	<!-- 	<h4>Dodaj film</h4>
+		<p>naziv: <input type="text" id="nazivFilma"/> <br>
+		opis: <input type="text" id="opisFilma"/><br>
+		glumci: <input type="text" id="glumciFilma"/> <br>
+		kategorija: <select id="sveKategorijeCombo"></select><br>
+		godina: <input type="text" id="godinaFilma"/> <br>
+		reziser: <input type="text" id="reziserFilma"/><br>
+		drzava: <select id="sveDrzaveCombo"></select> <br>
+		jezik: <select id="sviJeziciCombo"></select><br></p>
+		<br>
+		<button id="btnDodajFilm">Dodaj film!</button>				 -->
+		<br>
+		<br>
+		
+		<br>
+		<a href="login.html">Uloguj se</a>
+
+		<br>
+		<br>
+<!-- 		Tabelarni prikaz zanrova:
+			<table border="1" id="categoryTable">
+				<tr bgcolor="lightgrey">
+					<th>Id</th>
+					<th>Naziv</th>
+					<th>&nbsp;</th>
+					<th>&nbsp;</th>
+				</tr>
+			</table>
+		<br>
+		<br>
+		Tabelarni prikaz korisnika:
+			<table border="1" id="userTable">
+				<tr bgcolor="lightgrey">
+					<th>Id</th>
+					<th>Ime</th>
+					<th>Prezime</th>
+					<th>Korisnicko ime</th>
+					<th>Kategorija ukoliko je moderator</th>
+					<th>&nbsp;</th>
+					<th>&nbsp;</th>
+				</tr>
+			</table>
+ -->
+	</body>
+
+</html>
